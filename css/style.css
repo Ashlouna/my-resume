@@ -70,11 +70,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-main);
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* COMMON */
@@ -84,7 +86,7 @@ section {
 }
 
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 
 .desktop-element {
